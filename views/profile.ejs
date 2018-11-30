@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA-IICT Winter of Code | <%= Item.name %></title>
+    <link rel='stylesheet' href='/stylesheets/base.css' />
+    <link rel='stylesheet' href='/stylesheets/profile.css' />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-overlay">
+        <div class="nav">
+          <a href="/profile/logout">Log Out</a>
+        </div>
+        <div class="avatar-div">
+          <img class="avatar-img" src="<%= Item.avatar_url %>">
+        </div>
+        <h1 class="user-name"><%= Item.name %> (<a target="_blank" href="<%= Item.github_profile %>">@<%= Item.username %></a>)</h1>
+      </div>
+    </div>
+    <div class="body">
+      <h1>Projects are yet to be listed!</h1>
+    </div>
+  </body>
+</html>
