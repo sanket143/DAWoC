@@ -1,0 +1,31 @@
+/* SETUP */
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* SETUP ENDS */
+
+.coverLogo {
+  background-image: url("/images/snow_circle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 45px;
+  height: 35px;
+  z-index: 1;
+}
+
+a {
+  color: #16497b;
+  text-decoration: none;
+}

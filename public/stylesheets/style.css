@@ -1,9 +1,3 @@
-/* SETUP */
-html {
-  height: 100%;
-  padding: 0;
-}
-
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url("/images/backdrop.jpg");
@@ -14,20 +8,6 @@ body {
   overflow-y: hidden;
 }
 
-/* SETUP ENDS */
-
-.coverLogo {
-  background-image: url("/images/snow_circle.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 10px;
-  left: 30px;
-  width: 45px;
-  height: 35px;
-  z-index: 1;
-}
 .intro {
   width: 100%;
   height: 100%;
